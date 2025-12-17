@@ -51,6 +51,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form3";
             Text = "Holiday Bonus";
+            Load += Form3_Load;
             ResumeLayout(false);
         }
 
